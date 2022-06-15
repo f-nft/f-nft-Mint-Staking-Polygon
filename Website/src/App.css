@@ -40,3 +40,499 @@
 button {
   font-size: calc(10px + 2vmin);
 }
+
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Blaka&family=Kdam+Thmor+Pro&family=Rambla&display=swap");
+
+.App {
+  text-align: center;
+  color: #75006f;
+  max-width: "1200";
+  min-width: "385px";
+}
+
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 30s linear;
+  }
+}
+
+.h4 {
+  margin-top: 1em;
+}
+
+.App-header {
+  background-color: #332531;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #dc61fb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.nftapp {
+  background: radial-gradient(
+    circle at 50% 50%,
+    #000000,
+    #060406,
+    #0c080c,
+    #130b13,
+    #190f19,
+    #1e131f,
+    #251724,
+    #2a1b2b,
+    #321e32,
+    #372238,
+    #3e263d
+  );
+  max-height: 100%;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.connectbutton {
+  background: #ff7300d5;
+  box-shadow: 0px 1px 10px #011824;
+  color: #00ffdd;
+  border-radius: 14px;
+  padding: 5px 12px;
+  font-size: "15px";
+  font-weight: 500;
+}
+
+.navbarfont {
+  font-family: "Blaka", cursive;
+  font-weight: 300;
+}
+
+.nftminter {
+  background: radial-gradient(
+    circle at 50% 50%,
+    #090f11,
+    #0c1519,
+    #101e2b,
+    #0f223c,
+    #0e2144
+  );
+  font-family: "Kdam Thmor Pro", sans-serif;
+  font-weight: 300;
+  color: rgb(194, 0, 145);
+  box-shadow: 0 0 1px 1px #1774ff;
+  -webkit-border-radius: 20px !important;
+  -moz-border-radius: 20px !important;
+  border-radius: 20px !important;
+  -webkit-border: 20px !important;
+  -moz-border: 20px !important;
+  border: 20px !important;
+}
+
+.nftstaker {
+  background: radial-gradient(
+    circle at 50% 50%,
+    #090f11,
+    #0c1519,
+    #101e2b,
+    #0f223c,
+    #0e2144
+  );
+  font-family: "Kdam Thmor Pro", sans-serif;
+  font-weight: 300;
+  color: white;
+  box-shadow: 0 0 1px 1px #1797ff;
+  -webkit-border-radius: 20px !important;
+  -moz-border-radius: 20px !important;
+  border-radius: 20px !important;
+  -webkit-border: 20px !important;
+  -moz-border: 20px !important;
+  border: 20px !important;
+}
+
+.stakingrewards {
+  font-family: "Rambla", sans-serif;
+  margin-top: "1px";
+  width: auto;
+  padding: 10px;
+  font-weight: 300;
+  box-shadow: 1px 1px 15px #ffffff;
+  background: radial-gradient(
+    circle at 50% 50%,
+    #000000,
+    #060406,
+    #0c080c,
+    #130b13,
+    #190f19,
+    #1e131f,
+    #251724,
+    #2a1b2b,
+    #321e32,
+    #372238,
+    #3e263d
+  );
+}
+
+.modal-style1 {
+  background: radial-gradient(
+    circle at 50% 50%,
+    #090f11,
+    #0c1519,
+    #101e2b,
+    #0f223c,
+    #0e2144
+  );
+  font-family: "Rambla", sans-serif;
+  font-weight: 300;
+  color: white;
+  box-shadow: 0 0 1px 1px #17b2ff;
+  -webkit-border-radius: 20px !important;
+  -moz-border-radius: 20px !important;
+  border-radius: 20px !important;
+  -webkit-border: 20px !important;
+  -moz-border: 20px !important;
+  border: 20px !important;
+}
+
+.container-style {
+  display: grid;
+  grid-template-columns: 600px 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  justify-items: stretch;
+  align-items: stretch;
+}
+
+.container {
+  overflow: hidden;
+}
+
+.column {
+  float: left;
+  margin: 10px;
+  background-color: grey;
+  padding-bottom: 100%;
+  margin-bottom: -100%;
+}
+
+@keyframes glow2 {
+  from {
+    box-shadow: 0 0 4px -1px #f4dc76;
+  }
+  to {
+    box-shadow: 0 0 10px 7px #ffb300;
+  }
+}
+
+.stakegoldeffect {
+  font-family: "Black Ops One", cursive;
+  font-weight: 300;
+  animation: glow2 3s infinite alternate;
+  background: linear-gradient(to bottom, rgb(1, 53, 130), rgba(255, 0, 0, 0));
+}
+
+.stakegoldeffect2 {
+  animation: glow2 1s infinite alternate;
+  background: linear-gradient(to top, rgb(156, 0, 143), rgba(255, 0, 0, 0));
+}
+
+.errorsearch {
+  background: black;
+}
+
+.nft-card {
+  background-image: linear-gradient(
+    175.83deg,
+    rgb(0, 0, 0) 0%,
+    rgba(209, 101, 0, 0.911) 80.09%
+  );
+  font-family: "Black Ops One", cursive;
+  font-size: "12px";
+  background-size: 100% 100%;
+  -webkit-animation: AnimationStake 15s ease infinite;
+  -moz-animation: AnimationStake 12s ease infinite;
+  animation: AnimationStake 15s ease infinite;
+  color: rgb(255, 255, 255);
+  box-shadow: 1px 1px 11px #000000;
+}
+
+.stakedcard {
+  background-image: linear-gradient(170deg, #0c0c0c 0%, #f21dcf 80%);
+  font-family: "Black Ops One", cursive;
+  font-size: "10px";
+  background-size: 100% 100%;
+  -webkit-animation: AnimationStake 10s ease infinite;
+  -moz-animation: AnimationStake 10s ease infinite;
+  animation: AnimationStake 10 ease infinite;
+  color: rgb(255, 255, 255);
+  box-shadow: 1px 1px 11px #ffd700;
+}
+
+.navbarglow {
+  box-shadow: 0px 8px 10px #17b2ff;
+}
+
+.center {
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row {
+  display: flex; /* equal height of the children */
+  padding: 1em;
+}
+
+.col {
+  font-size: 14;
+  flex: 1; /* additionally, equal width */
+  padding: 1em;
+}
+
+.navbarglow {
+  box-shadow: 0px 8px 15px #17b2ff;
+}
+
+.farm {
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(90, 92, 106, 1) 0%,
+    rgba(32, 45, 58, 1) 81.3%
+  );
+  font-family: "Blaka";
+  font-weight: 300;
+  color: rgb(112, 0, 112);
+  box-shadow: 0 0 1px 1px #ffffff;
+  -webkit-border-radius: 20px !important;
+  -moz-border-radius: 20px !important;
+  border-radius: 20px !important;
+  -webkit-border: 20px !important;
+  -moz-border: 20px !important;
+  border: 20px !important;
+}
+
+.farmcard {
+  color: rgb(119, 3, 113);
+  font-family: "Black Ops One";
+  font-weight: 300;
+  background-image: linear-gradient(
+    90deg,
+    rgba(32, 38, 57, 1) 11.4%,
+    rgba(63, 76, 119, 1) 70.2%
+  );
+}
+
+.nftportal {
+  font-family: "Black Ops One";
+  font-size: 12;
+  background: radial-gradient(
+    circle at 50% 50%,
+    #000000,
+    #060406,
+    #0c080c,
+    #130b13,
+    #190f19,
+    #1e131f,
+    #251724,
+    #2a1b2b,
+    #321e32,
+    #372238,
+    #3e263d
+  );
+  font-weight: 100;
+}
+
+.stakedcard {
+  background: linear-gradient(270deg, #0c0c0c, #a7158e);
+  background-size: 400% 400%;
+  -webkit-animation: AnimationStake 14s ease infinite;
+  -moz-animation: AnimationStake 10s ease infinite;
+  animation: AnimationStake 14s ease infinite;
+  font-family: "Black Ops One";
+  font-size: 12;
+  color: rgb(255, 255, 255);
+  box-shadow: 1px 1px 11px #ffd700;
+}
+
+@-webkit-keyframes AnimationStake {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes AnimationStake {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes AnimationStake {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.react-logo {
+  display: inline-block;
+  border-radius: 1%;
+  border: 1px solid #00d8ff;
+
+  animation-name: rotate;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.react-logo,
+.react-logo:before,
+.react-logo:after {
+  position: initial;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border-radius: 1%;
+  border: 1px solid #00d9ff00;
+}
+
+.nucleo,
+.react-logo,
+.react-logo:before,
+.react-logo:after {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nucleo {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background: #00d8ff;
+}
+
+.react-logo:before,
+.react-logo:after {
+  content: "";
+}
+
+.react-logo:after {
+  transform: rotate(-57deg);
+}
+
+.react-logo:before {
+  transform: rotate(57deg);
+}
+
+.title {
+  font-size: 60px;
+  background: #222;
+  color: #00d8ff;
+  width: 250px;
+  margin: 2px auto;
+  text-align: center;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
